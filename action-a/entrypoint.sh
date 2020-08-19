@@ -1,3 +1,6 @@
 #!/bin/sh -l
 
-sh -c "echo Hello world my name is $INPUT_MY_NAME"
+pwd
+git status
+sh -c "pwd"
+sh -c "git status"
